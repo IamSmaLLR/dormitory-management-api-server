@@ -7,8 +7,8 @@ module.exports.postCode = function(email,content,cb){
 	    port: 465, // smtp端口 默认无需改动
 	    secure: true,
 	    auth: {
-	      user: 'iamsevenlee@163.com', // 用户名
-	      pass: 'RYDAEXSDEBDNCWLX' // SMTP授权码
+	      user: 'xxxxxxx@163.com', // 用户名
+	      pass: 'xxxxxxxxxx' // SMTP授权码
 	    }
 	}));
 	const emailInfo = {
